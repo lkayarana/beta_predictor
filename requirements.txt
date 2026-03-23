@@ -1,0 +1,9 @@
+numpy
+pandas
+biopython
+scikit-learn
+pyyaml
+requests
+tqdm
+matplotlib
+

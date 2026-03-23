@@ -1,0 +1,39 @@
+random_seed: 42
+
+train_target: 1000
+test_target: 50
+
+train_candidate_pool: 1200
+test_candidate_pool: 80
+
+min_len: 20
+max_len: 2000
+min_beta_residues: 5
+
+pseudocount: 1.0
+
+catalog_csv: "data/raw/catalog/all_beta_catalog.csv"
+
+train_manifest_csv: "data/interim/manifests/train_manifest_raw.csv"
+test_manifest_csv: "data/interim/manifests/test_manifest_raw.csv"
+
+structures_dir: "data/raw/structures"
+
+labeled_train_jsonl: "data/interim/labeled_train_candidates.jsonl"
+labeled_test_jsonl: "data/interim/labeled_test_candidates.jsonl"
+
+train_jsonl: "data/processed/train.jsonl"
+test_jsonl: "data/processed/test.jsonl"
+
+model_json: "results/models/beta_hmm.json"
+predictions_jsonl: "results/predictions/test_predictions.jsonl"
+
+metrics_json: "results/reports/metrics.json"
+classification_report_txt: "results/reports/classification_report.txt"
+confusion_matrix_csv: "results/reports/confusion_matrix.csv"
+summary_txt: "results/reports/summary.txt"
+
+confusion_matrix_png: "results/figures/confusion_matrix.png"
+metric_barplot_png: "results/figures/metric_barplot.png"
+
+dssp_exec: "mkdssp"
