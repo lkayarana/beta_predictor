@@ -1,0 +1,7 @@
+domain_id, pdb_id, chain_id, start_res, end_res
+labcA00,labc,A,5,93
+2xyzB01,2xyz,B,12,104
+3klmA00,4def,A,1,88
+4defA00,4def,A,7,120
+5ghiB00,5ghi,B,3,97
+
