@@ -64,11 +64,11 @@ def main():
     summary.append(f"Residue-level accuracy: {metrics['accuracy']:.4f}")
     summary.append(f"Balanced accuracy: {metrics['balanced_accuracy']:.4f}")
     summary.append(f"MCC: {metrics['mcc']:.4f}")
-    summary.append(f"Beta precision: {metrics['beta_precison']:.4f}")
+    summary.append(f"Beta precision: {metrics['beta_precision']:.4f}")
     summary.append(f"Beta recall: {metrics['beta_recall']:.4f}")
-    summary.append(f"Beta F1: {metrics['bata_f1']:.4f}")
+    summary.append(f"Beta F1: {metrics['beta_f1']:.4f}")
 
-    save_text("\n".join(summary), cfg["summary_text"])
+    save_text("\n".join(summary), cfg["summary_txt"])
 
     print("\n".join(summary))
     print("\nClassification report:\n")

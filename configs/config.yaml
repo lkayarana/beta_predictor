@@ -37,3 +37,10 @@ confusion_matrix_png: "results/figures/confusion_matrix.png"
 metric_barplot_png: "results/figures/metric_barplot.png"
 
 dssp_exec: "mkdssp"
+
+train_target: 1000
+test_target: 50
+
+train_candidate_pool: 1200
+test_candidate_pool: 80
+
